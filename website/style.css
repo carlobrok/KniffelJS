@@ -1,3 +1,33 @@
 body {
-    background-color: rgb(39, 120, 131);
+    background-color: rgb(168, 200, 204);
+}
+
+#getDice {
+    margin-left: 10px;
+    margin-top: 20px;
+    align-self: center;
+    padding: 10px;
+    border: 5px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 2px 2px 7px rgb(134, 134, 134);
+}
+
+#showDiceDiv {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-self: center;
+}
+
+.dice {
+    background-color: rgb(44, 207, 44);
+    font-size: 50px;
+    font-weight: bold;
+    align-self: center;
+    padding: 10px;
+    border: 5px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
 }
