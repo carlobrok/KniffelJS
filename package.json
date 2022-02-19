@@ -1,0 +1,13 @@
+{
+    "name": "kniffel-game",
+    "version": "0.0.1",
+    "description": "A simple Webbased kniffel like game. Potentially with support of a very good Bot as enemy.",
+    "main": "index.js",
+    "scripts": {
+      "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+      "start": "node index.js",
+      "autostart": "nodemon index.js"
+    },
+    "author": "Carlo Brokering, Dagh Zeppenfeld",
+    "license": "ISC"
+  }
