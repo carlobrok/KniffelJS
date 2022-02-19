@@ -8,17 +8,17 @@ const app = express();
 
 //Routing the start Page. The HTML
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, 'Website', 'index.html'));
+    res.sendFile(path.join(__dirname, 'website', 'index.html'));
 });
 
 //Routing the style sheet. The CSS
 app.get('/style.css', function(req, res) {
-    res.sendFile(path.join(__dirname, 'Website', 'style.css'));
+    res.sendFile(path.join(__dirname, 'website', 'style.css'));
 });
 
 //Routing the Client-side Script. The JS
 app.get('/scripts.js', function(req, res) {
-    res.sendFile(path.join(__dirname, 'Website', 'scripts.js'));
+    res.sendFile(path.join(__dirname, 'website', 'scripts.js'));
 });
 
 //Listening on Port 3000. Important, but could be set to other ports too
